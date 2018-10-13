@@ -1,0 +1,34 @@
+{
+  "name": "KidNews-Tiger18",
+  "version": "1.0.0",
+  "description": "Idea: Create a web app for elementary-adolescent age students \r for reading appropriate news articles and videos to increase \r literacy and learning relevant topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./KidNews/frontend/src/index.js --output ./KidNews/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./KidNews/frontend/src/index.js --output ./KidNews/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmitchinson/KidNews-Tiger18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmitchinson/KidNews-Tiger18/issues"
+  },
+  "homepage": "https://github.com/bmitchinson/KidNews-Tiger18#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
