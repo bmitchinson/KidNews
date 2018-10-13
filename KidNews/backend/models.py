@@ -10,5 +10,5 @@ class article(models.Model):
   title = models.CharField(max_length=150)
   source_link = models.URLField()
   description = models.CharField(max_length=300)
-
+  tags = models.CharField(max_length=150)
 
