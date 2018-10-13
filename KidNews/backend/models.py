@@ -4,5 +4,5 @@ from django.db import models
 class backend(models.Model):
   name = models.CharField(max_length=100)
   age = models.PositiveIntegerField()
-  gender = models.models.CharField(max_length=10)
+  gender = models.CharField(max_length=10)
   
