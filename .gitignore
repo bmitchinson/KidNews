@@ -62,9 +62,8 @@ local_settings.py
 
 ### React ###
 node_modules
+KidNews/frontend/static/*
 
-### VSCode ###s
+### VSCode ###
 .vscode
-
 .env
-db.sqlite3
