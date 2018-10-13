@@ -62,8 +62,8 @@ local_settings.py
 
 ### React ###
 node_modules
+KidNews/frontend/static/*
 
 ### VSCode ###
 .vscode
-
 .env
