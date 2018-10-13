@@ -63,7 +63,7 @@ local_settings.py
 ### React ###
 node_modules
 
-### VSCode ###s
+### VSCode ###
 .vscode
 
 .env
