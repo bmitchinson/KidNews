@@ -18,6 +18,9 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
+    # Within frontend app, urls.py should redirect nothing to the splash page 
+    path('',include('frontend.urls')),
+    path('/accounts',include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
-    path('accounts/',include('django.contrib.auth.urls')),
+    
 ]
