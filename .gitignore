@@ -60,5 +60,11 @@ target/
 __pycache__/
 local_settings.py
 
+### React ###
+node_modules
+
+### VSCode ###s
+.vscode
+
 .env
 db.sqlite3
