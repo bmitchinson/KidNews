@@ -123,4 +123,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Redirect to /home after login
-LOGIN_REDIRECT_URL = '/home'
+LOGIN_REDIRECT_URL = '/home/dashboard'
