@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import user_reader, article, log
+from .models import user_reader, article, reader_log
 
 # Register your models here.
 admin.site.register(user_reader)
 admin.site.register(article)
-admin.site.register(log)
+admin.site.register(reader_log)
