@@ -29,10 +29,16 @@ class article(models.Model):
   def __str__(self):
     return self.title
 
-class log(models.Model):
+class reader_log(models.Model):
   createdAt = models.DateTimeField(auto_now_add=True)
+  article = models.ForeignKey(
+    article,
+    on_delete=models.CASCADE,
+  )
+  time_spent = models.PositiveIntegerField()
   user = models.ForeignKey(
     user_reader,
     on_delete=models.CASCADE,
-    editable=False,
   )
+ # def __str__ (self):
+  #  return self.createdAt
