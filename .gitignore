@@ -63,6 +63,7 @@ local_settings.py
 ### React ###
 node_modules
 KidNews/frontend/static/*
+KidNews/static/*
 
 ### VSCode ###
 .vscode
