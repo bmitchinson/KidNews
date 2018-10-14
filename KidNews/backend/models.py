@@ -5,7 +5,7 @@ class user_reader(models.Model):
   name = models.CharField(max_length=100)
   age = models.PositiveIntegerField()
   gender = models.CharField(max_length=10)
-  
+
   class Meta:
     ordering = ('name',)
   
@@ -18,6 +18,8 @@ class article(models.Model):
   source_link = models.URLField()
   description = models.TextField()
   tags = models.CharField(max_length=100)
+  text = models.TextField(default="PROBLEM GETTING ARTICLE TEXT")
+  media_link = models.URLField(blank=True)
   # connect many users to articles & vise versa
   users = models.ManyToManyField(user_reader, blank=True)
 
