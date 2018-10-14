@@ -28,3 +28,11 @@ class article(models.Model):
   
   def __str__(self):
     return self.title
+
+class log(models.Model):
+  createdAt = models.DateTimeField(auto_now_add=True)
+  user = models.ForeignKey(
+    user_reader,
+    on_delete=models.CASCADE,
+    editable=False,
+  )
