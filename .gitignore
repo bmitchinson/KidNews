@@ -64,6 +64,7 @@ KidNews/static/*
 ### React ###
 node_modules
 KidNews/frontend/static/*
+KidNews/static/*
 
 ### VSCode ###
 .vscode
