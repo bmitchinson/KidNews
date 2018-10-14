@@ -12,7 +12,6 @@ export class Dashboard extends React.Component {
     return(
       <div>
         <Label>Dashboard Label</Label>
-        <Article/>
       </div>
     )
   }

@@ -6,15 +6,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {Log} from "./Log";
 import {Dashboard} from "./Dashboard";
 
-// import DataProvider from "./DataProvider";
+import Home from "./Home";
 
 const App = () => (
-  <Router>
-    <Switch>
-      <Route exact path ="/home/dashboard" component={Dashboard}/>
-      <Route exact path ="/home/log" component={Log}/>
-    </Switch>
-  </Router>
+  <Home></Home>
 );
 
 const wrapper = document.getElementById("app");
