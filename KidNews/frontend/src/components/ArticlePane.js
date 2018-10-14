@@ -11,7 +11,7 @@ export class ArticlePane extends React.Component{
   }
 
   componentWillMount(){
-    fetch("http://127.0.0.1:8000/api/article/")
+    fetch("http://playground-news.appspot.com/api/article/")
       .then(response => {
         if (response.status !== 500){
           console.log("Article Fetch Timeout");
