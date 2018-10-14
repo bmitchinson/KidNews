@@ -40,5 +40,5 @@ class reader_log(models.Model):
     user_reader,
     on_delete=models.CASCADE,
   )
- # def __str__ (self):
-  #  return self.createdAt
+  def __str__ (self):
+    return "log: " + str(self.user.name) + " read " + str(self.article.title)
