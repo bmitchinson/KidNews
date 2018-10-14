@@ -16,10 +16,10 @@ class user_reader(models.Model):
 class article(models.Model):
   title = models.CharField(max_length=150)
   source_link = models.URLField()
-  description = models.CharField(max_length=300)
-  tags = models.TextField()
+  description = models.TextField()
+  tags = models.CharField(max_length=100)
   # connect many users to articles & vise versa
-  users = models.ManyToManyField(user_reader)
+  users = models.ManyToManyField(user_reader, blank=True)
 
   class Meta:
     ordering = ('title',)
