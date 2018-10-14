@@ -9,7 +9,9 @@ import {Dashboard} from "./Dashboard";
 import Home from "./Home";
 
 const App = () => (
-  <Home></Home>
+  <div style={{padding:30}}>
+    <Home/>
+  </div>
 );
 
 const wrapper = document.getElementById("app");
