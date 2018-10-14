@@ -155,4 +155,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT = 'static'
 
 # Redirect to /home after login
-LOGIN_REDIRECT_URL = '/home'
+LOGIN_REDIRECT_URL = '/home/dashboard'
