@@ -18,4 +18,3 @@ literacy and learning relevant topics
 ## End Product  
 ![Logo](https://github.com/osandvold302/KidNews-Tiger18/blob/master/photos/NewBanner.png)
 ![Demo](https://github.com/osandvold302/KidNews-Tiger18/blob/master/photos/image%20(1).png)
-![Rocket](https://github.com/osandvold302/KidNews-Tiger18/blob/master/photos/Ride.png)
